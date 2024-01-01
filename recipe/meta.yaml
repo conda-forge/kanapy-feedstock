@@ -26,7 +26,7 @@ requirements:
   run:
     - python
     - numpy
-    - matplotlib
+    - matplotlib-base
     - scipy
     - seaborn
     - click
