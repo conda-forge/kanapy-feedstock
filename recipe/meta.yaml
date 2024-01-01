@@ -25,6 +25,15 @@ requirements:
     - python
   run:
     - python
+    - numpy
+    - matplotlib
+    - scipy
+    - seaborn
+    - click
+    - tqdm
+    - pytest-cov
+    - pytest-mock
+    - pytest
 
 test:
   imports:
