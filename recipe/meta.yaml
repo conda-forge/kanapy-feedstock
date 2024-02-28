@@ -1,5 +1,5 @@
 {% set name = "kanapy" %}
-{% set version = "5.0.4" %}
+{% set version = "6.2.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/ICAMS/Kanapy/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 5e9f94468ad370f7fd2aab1a9e3303005bdb0909607207a9417835b12a1fa042
+  sha256: 8b5e3fa1b219fe4ff3a9221d73bd2b59318806f7f30166475dfe2e1e60d1d83d
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
