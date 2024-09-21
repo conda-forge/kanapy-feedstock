@@ -11,13 +11,14 @@ source:
   sha256: 8b5e3fa1b219fe4ff3a9221d73bd2b59318806f7f30166475dfe2e1e60d1d83d
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - cmake
     - make
   host:
