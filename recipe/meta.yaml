@@ -38,6 +38,7 @@ requirements:
     - pytest
     - jsonschema
     - networkx
+    - orix
 
 test:
   imports:
