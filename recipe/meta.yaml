@@ -36,6 +36,7 @@ requirements:
     - pytest-cov
     - pytest-mock
     - pytest
+    - jsonschema
 
 test:
   imports:
