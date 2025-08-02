@@ -37,6 +37,7 @@ requirements:
     - pytest-mock
     - pytest
     - jsonschema
+    - networkx
 
 test:
   imports:
