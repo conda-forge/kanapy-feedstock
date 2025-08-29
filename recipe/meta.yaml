@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/source/k/kanapy/kanapy-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/k/kanapy/kanapy-{{ version }}.tar.gz
   sha256: 52972842e450b6216382cb3ece7efcf796405dfaaeacb9c45a034b3280b4db89
 
 build:
