@@ -1,11 +1,12 @@
 {% set version = "6.5.1" %}
+{% set python_min = "3.10" %}
 
 package:
   name: kanapy
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/k/kanapy/kanapy-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/k/kanapy/kanapy-{{ version }}.tar.gz
   sha256: 52972842e450b6216382cb3ece7efcf796405dfaaeacb9c45a034b3280b4db89
 
 build:
@@ -16,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
   run:
-    - python
+    - python >={{ python_min }}
     - numpy
     - matplotlib-base
     - scipy
@@ -39,7 +40,7 @@ test:
     - pip check
   requires:
     - pip
-    - python
+    - python {{ python_min }}
 
 about:
   home: https://icams.github.io/Kanapy/builds/html/index.html
