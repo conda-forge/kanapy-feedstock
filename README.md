@@ -3,71 +3,30 @@ About kanapy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kanapy-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mrgprasad/kanapy
+Home: https://icams.github.io/Kanapy/builds/html/index.html
 
 Package license: AGPL-3.0-or-later
 
-Summary: A python package for generating complex synthetic polycrystalline microstructures.
+Summary: Python tool for microstructure analysis and generation of 3D microstructure models
 
-Development: https://github.com/mrgprasad/kanapy
+Development: https://github.com/ICAMS/Kanapy
 
-Documentation: https://github.com/mrgprasad/kanapy
+Documentation: https://icams.github.io/Kanapy/builds/html/index.html
 
-Kanapy is a python package for generating complex synthetic
-polycrystalline microstructures. The general implementation is done
-in Python with the performance critical part for the geometry module
-implemented in C++.
+Kanapy is a python toolbox for the generation of 3D microstructure models based on
+statistical analysis of experimental 2D microstructure maps. Grain orientations are generated
+based on crystallographic textures.
 
 
 Current build status
 ====================
 
 
-<table>
-    
-  <tr>
-    <td>Azure</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <details>
-        <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main">
-          </a>
-        </summary>
-        <table>
-          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux_64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -193,5 +152,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@AHartmaier](https://github.com/AHartmaier/)
 * [@jan-janssen](https://github.com/jan-janssen/)
 
