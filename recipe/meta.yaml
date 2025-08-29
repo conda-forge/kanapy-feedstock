@@ -41,7 +41,7 @@ requirements:
     - networkx
     - orix
     - scikit-image
-    - request
+    - requests
 
 test:
   imports:
