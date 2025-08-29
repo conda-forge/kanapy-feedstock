@@ -39,7 +39,7 @@ requirements:
     - pytest
     - jsonschema
     - networkx
-    - orix
+    - orix >=0.13
     - scikit-image
     - requests
 
