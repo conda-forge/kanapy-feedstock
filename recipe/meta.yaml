@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -20,7 +20,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - numpy
+    - numpy <=2.2.6
     - matplotlib-base
     - scipy
     - seaborn
