@@ -1,4 +1,4 @@
-{% set version = "6.5.3" %}
+{% set version = "6.5.3.post1" %}
 
 package:
   name: kanapy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/k/kanapy/kanapy-{{ version }}.tar.gz
-  sha256: 6ce7997d8fc2a0cbc884be6be170edc07a6d962e702a285dd3d36c59ba321e4f
+  sha256: 97022048f037a465da220d65f536c0d2a7dda3ddc15b8e5286db2522a05864e4
 
 build:
   noarch: python
