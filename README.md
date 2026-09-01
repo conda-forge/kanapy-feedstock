@@ -17,15 +17,15 @@ Kanapy is a python toolbox for the generation of 3D microstructure models based 
 statistical analysis of experimental 2D microstructure maps. Grain orientations are generated
 based on crystallographic textures.
 
-
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13031&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kanapy-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/kanapy-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/kanapy-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
@@ -48,31 +48,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `kanapy` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install kanapy
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install kanapy
 ```
 
-It is possible to list all of the versions of `kanapy` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add kanapy
+# for installing globally
+pixi global install kanapy
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `kanapy` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search kanapy --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search kanapy --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search kanapy --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -84,6 +126,8 @@ mamba repoquery whoneeds kanapy --channel conda-forge
 # List dependencies of `kanapy`:
 mamba repoquery depends kanapy --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -154,7 +198,4 @@ Feedstock Maintainers
 
 * [@AHartmaier](https://github.com/AHartmaier/)
 * [@jan-janssen](https://github.com/jan-janssen/)
-
-
-<!-- dummy commit to enable rerendering -->
 
